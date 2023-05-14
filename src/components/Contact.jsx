@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import contactSvg from "../assets/contact.svg";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../../initFirebase";
+// import whatsappSvg from "../assets/whatsappSvg.svg"
 
 function Contact() {
   const [firstName, setFirstName] = useState("");
@@ -37,7 +38,7 @@ function Contact() {
                   Get in touch
                 </p>
                 <p className="mt-4 text-lg text-gray-600">
-                  Our friendly team would love href hear from you.
+                  Our friendly team would love to hear from you.
                 </p>
                 <form
                   id="contactForm"
@@ -165,23 +166,26 @@ function Contact() {
               </div>
               <div className="space-y-4 divide-y-2">
                 <div className="flex flex-col space-y-2 pt-4 first:pt-0 lg:w-full">
-                  <p className="w-full text-xl font-semibold  text-gray-900">
+                  {/* <p className="w-full text-xl font-semibold  text-gray-900">
                     Bengaluru office
-                  </p>
-                  <p className="w-full text-base  text-gray-600">
+                  </p> */}
+                  {/* <p className="w-full text-base  text-gray-600">
                     Mon-Sat 9am href 5pm.
-                  </p>
+                  </p> */}
                   <a
-                    href="tel:+919292384930"
+                    href="https://wa.me/9975123962"
                     className="w-full text-base  text-gray-600"
-                  >
-                    +91 383377373
+                   >
+                    {/* <img 
+                    src={whatsappSvg}
+                    /> */}
+                    +91 9975123962
                   </a>
                   <a
-                    href="mailto:email@email.com"
+                    href="mailto: grobbiz.services@gmail.com"
                     className="w-full text-base  text-gray-600"
                   >
-                    email@email.com
+                   grobbiz.services@gmail.com
                   </a>
                 </div>
               </div>
