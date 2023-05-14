@@ -14,7 +14,7 @@ function Home() {
                   className="text-2xl font-bold leading-none flex items-center"
                   href="/"
                 >
-                  <svg
+                  {/* <svg
                     width="24"
                     height="24"
                     viewBox="0 0 95 95"
@@ -71,7 +71,7 @@ function Home() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
-                  </svg>
+                  </svg> */}
                   Grobbiz
                 </a>
               </div>
@@ -81,7 +81,7 @@ function Home() {
             <div className="hidden w-auto lg:block">
               <ul className="mr-16 flex items-center text-lg font-semibold">
                 <li className="mr-9 font-medium">
-                  <a href="#features">Features</a>
+                  <a href="#features">Services</a>
                 </li>
                 <li className="mr-9 font-medium">
                   <a href="#contact">Contact us</a>
@@ -95,12 +95,15 @@ function Home() {
       <section className="px-5 md:px-10 bg-white dark:bg-gray-900">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-              Payments tool for software companies
+            <h1 className="max-w-2xl mb-4 text-xl font-bold tracking-tight leading-none md:text-2xl xl:text-5xl dark:text-white">
+            GROBBIZ - Your Digital Business Partner
+
+            {/* Where Buisness Dreams Go Digital  */}
+            {/* GROBBIZ - Your Digital Business Partner */}
+
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              From checkout href global sales tax compliance, companies around
-              the world use Grobbiz href simplify their payment stack.
+            Here in GROBBIZ, we specializes in helping business owners create and optimize their digital presence. We understand the importance of having a strong online presence in today's digital world, and our team of experts is dedicated to helping you achieve your business goals through effective digital strategies.
             </p>
             <a
               href="#contact"
@@ -997,7 +1000,7 @@ function Home() {
         </div>
       </section>
       {/* Social Proof  */}
-      <section className="bg-gray-100 dark:bg-gray-900">
+      {/* <section className="bg-gray-100 dark:bg-gray-900">
         <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
           <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
             <div className="flex flex-col items-center justify-center">
@@ -1020,7 +1023,7 @@ function Home() {
             </div>
           </dl>
         </div>
-      </section>
+      </section> */}
       {/* Feature section */}
       <section
         id="features"
@@ -1028,12 +1031,16 @@ function Home() {
       >
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div className="max-w-screen-md mb-8 lg:mb-16">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              Designed for business teams like yours
+            <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
+            Where Buisness Dreams Go Digital
+              {/* Designed for business teams like yours */}
             </h2>
             <p className="text-gray-500 sm:text-xl dark:text-gray-400">
-              Here at Grobbiz we focus on markets where technology, innovation,
-              and capital can unlock long-term value and drive economic growth.
+              {/* Here at Grobbiz we focus on markets where technology, innovation,
+              and capital can unlock long-term value and drive economic growth. */}
+              We work closely with our clients to understand their unique business needs and goals, and tailor our services to meet those needs. Our team of experienced professionals is committed to delivering high-quality work and providing exceptional customer service.
+
+Partner with GROBBIZ to take your business to the next level and succeed in the digital world. Contact us today to learn more about our services and how we can help you achieve your business goals.
             </p>
           </div>
           <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
@@ -1053,12 +1060,13 @@ function Home() {
                 </svg>
               </div>
               <h3 className="mb-2 text-xl font-bold dark:text-white">
-                Marketing
+                Website design and development
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                Plan it, create it, launch it. Collaborate seamlessly with all
+              A well-designed website can help you form a good impression on your prospective customers. It can also help you nurture your leads and get more conversions. But, more importantly, it provides good user experience and helps your website visitors access and navigate your website with ease
+                {/* Plan it, create it, launch it. Collaborate seamlessly with all
                 the organization and hit your marketing goals every month with
-                our marketing plan.
+                our marketing plan. */}
               </p>
             </div>
             <div>
@@ -1072,14 +1080,15 @@ function Home() {
                   <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
                 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-bold dark:text-white">Legal</h3>
+              <h3 className="mb-2 text-xl font-bold dark:text-white">SEO</h3>
               <p className="text-gray-500 dark:text-gray-400">
-                Protect your organization, devices and stay compliant with our
-                structured workflows and custom permissions made for you.
+              Making your content search-friendly matters because it's how you get more relevant users viewing your content
+                {/* Protect your organization, devices and stay compliant with our
+                structured workflows and custom permissions made for you. */}
               </p>
             </div>
             <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-indigo-100 lg:h-12 lg:w-12 dark:bg-indigo-900">
+              {/* <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-indigo-100 lg:h-12 lg:w-12 dark:bg-indigo-900">
                 <svg
                   className="w-5 h-5 text-indigo-600 lg:w-6 lg:h-6 dark:text-indigo-300"
                   fill="currentColor"
@@ -1167,7 +1176,7 @@ function Home() {
                 Keep your company’s lights on with customizable, iterative, and
                 structured workflows built for all efficient teams and
                 individual.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -1241,12 +1250,12 @@ function Home() {
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2020 Grobbiz —
             <a
-              href="https://twitter.com/knyttneve"
+               href="mailto: grobbiz.services@gmail.com"
               className="text-gray-600 ml-1"
               rel="noopener noreferrer"
               target="_blank"
             >
-              @knyttneve
+               grobbiz.services@gmail.com
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
