@@ -1,5 +1,6 @@
 import React from "react";
 import Contact from "../components/Contact";
+import logo from "../assets/logo.svg";
 
 function Home() {
   return (
@@ -72,7 +73,13 @@ function Home() {
                       strokeLinejoin="round"
                     />
                   </svg> */}
-                  Grobbiz
+                  <div className=" hidden lg:block flex-1">
+              <img
+                alt="grobbiz-logo"
+               className=" max-h-full w-full rounded-lg object-cover "
+                src={logo}
+              />
+            </div>
                 </a>
               </div>
             </div>
@@ -96,14 +103,14 @@ function Home() {
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-xl font-bold tracking-tight leading-none md:text-2xl xl:text-5xl dark:text-white">
-            GROBBIZ - Your Digital Business Partner
+              GROBBIZ - Your Digital Business Partner
 
-            {/* Where Buisness Dreams Go Digital  */}
-            {/* GROBBIZ - Your Digital Business Partner */}
+              {/* Where Buisness Dreams Go Digital  */}
+              {/* GROBBIZ - Your Digital Business Partner */}
 
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            Here in GROBBIZ, we specializes in helping business owners create and optimize their digital presence. We understand the importance of having a strong online presence in today's digital world, and our team of experts is dedicated to helping you achieve your business goals through effective digital strategies.
+              Here in GROBBIZ, we specializes in helping business owners create and optimize their digital presence. We understand the importance of having a strong online presence in today's digital world, and our team of experts is dedicated to helping you achieve your business goals through effective digital strategies.
             </p>
             <a
               href="#contact"
@@ -1032,7 +1039,7 @@ function Home() {
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div className="max-w-screen-md mb-8 lg:mb-16">
             <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
-            Where Buisness Dreams Go Digital
+              Where Buisness Dreams Go Digital
               {/* Designed for business teams like yours */}
             </h2>
             <p className="text-gray-500 sm:text-xl dark:text-gray-400">
@@ -1040,7 +1047,7 @@ function Home() {
               and capital can unlock long-term value and drive economic growth. */}
               We work closely with our clients to understand their unique business needs and goals, and tailor our services to meet those needs. Our team of experienced professionals is committed to delivering high-quality work and providing exceptional customer service.
 
-Partner with GROBBIZ to take your business to the next level and succeed in the digital world. Contact us today to learn more about our services and how we can help you achieve your business goals.
+              Partner with GROBBIZ to take your business to the next level and succeed in the digital world. Contact us today to learn more about our services and how we can help you achieve your business goals.
             </p>
           </div>
           <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
@@ -1063,7 +1070,7 @@ Partner with GROBBIZ to take your business to the next level and succeed in the 
                 Website design and development
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-              A well-designed website can help you form a good impression on your prospective customers. It can also help you nurture your leads and get more conversions. But, more importantly, it provides good user experience and helps your website visitors access and navigate your website with ease
+                A well-designed website can help you form a good impression on your prospective customers. It can also help you nurture your leads and get more conversions. But, more importantly, it provides good user experience and helps your website visitors access and navigate your website with ease
                 {/* Plan it, create it, launch it. Collaborate seamlessly with all
                 the organization and hit your marketing goals every month with
                 our marketing plan. */}
@@ -1082,7 +1089,7 @@ Partner with GROBBIZ to take your business to the next level and succeed in the 
               </div>
               <h3 className="mb-2 text-xl font-bold dark:text-white">SEO</h3>
               <p className="text-gray-500 dark:text-gray-400">
-              Making your content search-friendly matters because it's how you get more relevant users viewing your content
+                Making your content search-friendly matters because it's how you get more relevant users viewing your content
                 {/* Protect your organization, devices and stay compliant with our
                 structured workflows and custom permissions made for you. */}
               </p>
@@ -1187,7 +1194,7 @@ Partner with GROBBIZ to take your business to the next level and succeed in the 
       <footer className="text-gray-600 body-font">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <svg
+            {/* <svg
               width={24}
               height={24}
               viewBox="0 0 95 95"
@@ -1244,18 +1251,25 @@ Partner with GROBBIZ to take your business to the next level and succeed in the 
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
-            </svg>
+            </svg> */}
+             <div className=" hidden lg:block flex-1">
+              <img
+                alt="grobbiz-logo"
+                // className=" max-h-full w-full rounded-lg object-cover "
+                src={logo}
+              />
+            </div>
             <span className="text-xl">Grobbiz</span>
           </a>
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2020 Grobbiz —
             <a
-               href="mailto: grobbiz.services@gmail.com"
+              href="mailto: grobbiz.services@gmail.com"
               className="text-gray-600 ml-1"
               rel="noopener noreferrer"
               target="_blank"
             >
-               grobbiz.services@gmail.com
+              grobbiz.services@gmail.com
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
