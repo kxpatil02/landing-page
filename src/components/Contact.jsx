@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import contactSvg from "../assets/contact.svg";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../../initFirebase";
-// import whatsappSvg from "../assets/whatsappSvg.svg"
 
 function Contact() {
   const [firstName, setFirstName] = useState("");
@@ -137,7 +136,7 @@ function Contact() {
                   <input
                     type="submit"
                     value={"Send Message"}
-                    className="w-full rounded-md bg-indigo-700 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                    className="w-full rounded-md bg-sky-500 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                   />
                 </form>
               </div>
@@ -175,7 +174,7 @@ function Contact() {
                   <a
                     href="https://wa.me/9975123962"
                     className="w-full text-base  text-gray-600"
-                   >
+                  >
                     {/* <img 
                     src={whatsappSvg}
                     /> */}
@@ -185,7 +184,7 @@ function Contact() {
                     href="mailto: grobbiz.services@gmail.com"
                     className="w-full text-base  text-gray-600"
                   >
-                   grobbiz.services@gmail.com
+                    grobbiz.services@gmail.com
                   </a>
                 </div>
               </div>

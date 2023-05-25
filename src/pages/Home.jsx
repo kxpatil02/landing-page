@@ -15,71 +15,9 @@ function Home() {
                   className="text-2xl font-bold leading-none flex items-center"
                   href="/"
                 >
-                  {/* <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 95 95"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 mr-4"
-                  >
-                    <path
-                      d="M47.4974 90.0514C70.9983 90.0514 90.0495 71.0002 90.0495 47.4993C90.0495 23.9985 70.9983 4.94727 47.4974 4.94727C23.9965 4.94727 4.94531 23.9985 4.94531 47.4993C4.94531 71.0002 23.9965 90.0514 47.4974 90.0514Z"
-                      stroke="#4338CA"
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M21.9086 28.8555C17.2142 35.2988 15.1227 43.2756 16.0518 51.1934C16.981 59.1111 20.8623 66.3871 26.9208 71.5685C32.9794 76.75 40.7694 79.4557 48.7354 79.1454C56.7014 78.835 64.2573 75.5315 69.8944 69.8944C75.5315 64.2573 78.835 56.7014 79.1454 48.7354C79.4557 40.7694 76.75 32.9794 71.5685 26.9208C66.3871 20.8623 59.1111 16.981 51.1934 16.0518C43.2756 15.1227 35.2988 17.2142 28.8555 21.9086"
-                      stroke="#4338CA"
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M30.5213 57.3959C28.7309 54.3326 27.8033 50.8416 27.8368 47.2936C27.8703 43.7456 28.8638 40.2728 30.7117 37.2438C32.5596 34.2148 35.1931 31.7426 38.3326 30.0895C41.4722 28.4364 45.0007 27.6641 48.5438 27.8545C52.0868 28.0449 55.5123 29.191 58.4566 31.171C61.4009 33.1511 63.7542 35.8914 65.2668 39.101C66.7795 42.3106 67.395 45.8698 67.048 49.401C66.7011 52.9322 65.4046 56.3035 63.2963 59.1574M59.0806 63.3334C55.9959 65.5987 52.3169 66.914 48.4952 67.1179C44.6735 67.3219 40.8754 66.4055 37.5671 64.4813"
-                      stroke="#4338CA"
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M47.4552 56.2678C52.2975 56.2678 56.2229 52.3424 56.2229 47.5001C56.2229 42.6579 52.2975 38.7324 47.4552 38.7324C42.6129 38.7324 38.6875 42.6579 38.6875 47.5001C38.6875 52.3424 42.6129 56.2678 47.4552 56.2678Z"
-                      stroke="#4338CA"
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M25.112 30.0638C27.8446 30.0638 30.0599 27.8485 30.0599 25.1159C30.0599 22.3832 27.8446 20.168 25.112 20.168C22.3793 20.168 20.1641 22.3832 20.1641 25.1159C20.1641 27.8485 22.3793 30.0638 25.112 30.0638Z"
-                      stroke="#4338CA"
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M33.7448 66.1634C36.4775 66.1634 38.6927 63.9482 38.6927 61.2155C38.6927 58.4828 36.4775 56.2676 33.7448 56.2676C31.0121 56.2676 28.7969 58.4828 28.7969 61.2155C28.7969 63.9482 31.0121 66.1634 33.7448 66.1634Z"
-                      stroke="#4338CA"
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M61.1719 64.2051C62.8115 64.2051 64.1406 62.8759 64.1406 61.2363C64.1406 59.5967 62.8115 58.2676 61.1719 58.2676C59.5323 58.2676 58.2031 59.5967 58.2031 61.2363C58.2031 62.8759 59.5323 64.2051 61.1719 64.2051Z"
-                      stroke="#4338CA"
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg> */}
                   <div className=" hidden lg:block flex-1">
-              <img
-                alt="grobbiz-logo"
-               className=" max-h-full w-full rounded-lg object-cover "
-                src={logo}
-              />
-            </div>
+                    <img alt="grobbiz-logo" className=" w-36 p-4" src={logo} />
+                  </div>
                 </a>
               </div>
             </div>
@@ -87,10 +25,10 @@ function Home() {
           <div className="w-auto">
             <div className="hidden w-auto lg:block">
               <ul className="mr-16 flex items-center text-lg font-semibold">
-                <li className="mr-9 font-medium">
+                <li className="mr-9 font-medium hover:text-sky-500">
                   <a href="#features">Services</a>
                 </li>
-                <li className="mr-9 font-medium">
+                <li className="mr-9 font-medium hover:text-sky-500">
                   <a href="#contact">Contact us</a>
                 </li>
               </ul>
@@ -100,21 +38,23 @@ function Home() {
       </div>
       {/* Hero section */}
       <section className="px-5 md:px-10 bg-white dark:bg-gray-900">
-        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div className="grid max-w-screen-xl px-4 py-0 mx-auto lg:gap-8 xl:gap-0 lg:py-0 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-xl font-bold tracking-tight leading-none md:text-2xl xl:text-5xl dark:text-white">
               GROBBIZ - Your Digital Business Partner
-
               {/* Where Buisness Dreams Go Digital  */}
               {/* GROBBIZ - Your Digital Business Partner */}
-
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              Here in GROBBIZ, we specializes in helping business owners create and optimize their digital presence. We understand the importance of having a strong online presence in today's digital world, and our team of experts is dedicated to helping you achieve your business goals through effective digital strategies.
+              Here in GROBBIZ, we specializes in helping business owners create
+              and optimize their digital presence. We understand the importance
+              of having a strong online presence in today's digital world, and
+              our team of experts is dedicated to helping you achieve your
+              business goals through effective digital strategies.
             </p>
             <a
               href="#contact"
-              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 dark:focus:ring-indigo-900"
+              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-sky-500 hover:bg-sky-600 transition-colors focus:ring-4 focus:ring-sky-300 dark:focus:ring-sky-900"
             >
               Contact us
               <svg
@@ -134,7 +74,7 @@ function Home() {
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xa="http://www.w3.org/1999/xa"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
               data-name="Layer 1"
               width="880.16014"
               height="576.27222"
@@ -259,7 +199,7 @@ function Home() {
               <path
                 d="M450.08991,386.47388v182.62a4.81834,4.81834,0,0,0,4.81,4.81h272.87a4.81829,4.81829,0,0,0,4.81-4.81v-182.62a4.82046,4.82046,0,0,0-4.81-4.82h-272.87A4.82051,4.82051,0,0,0,450.08991,386.47388Z"
                 transform="translate(-159.91993 -161.86389)"
-                fill="#4338ca"
+                fill="#38bdf8"
               />
               <path
                 d="M505.72993,652.10388a2.94839,2.94839,0,0,0,2.32,1.11H670.39a2.98724,2.98724,0,0,0,2.92-3.6l-2.52-11.97a2.99262,2.99262,0,0,0-1.86-2.17,2.89451,2.89451,0,0,0-1.06-.2h-157.31a2.89422,2.89422,0,0,0-1.06.2,2.99237,2.99237,0,0,0-1.86,2.17l-2.52,11.97A2.98494,2.98494,0,0,0,505.72993,652.10388Z"
@@ -914,17 +854,17 @@ function Home() {
               <path
                 d="M198.05786,613.02141a.49675.49675,0,0,0,.15092-.06642l5.75315-3.76566a.49923.49923,0,0,0,.00032-.83621l-5.97979-3.91667a.49972.49972,0,1,0-.54792.83585l5.34091,3.49818-5.114,3.34794a.49991.49991,0,0,0,.39637.903Z"
                 transform="translate(-159.91993 -161.86389)"
-                fill="#4338ca"
+                fill="#38bdf8"
               />
               <path
                 d="M188.97111,613.44045a.5.5,0,0,0,.12607-.91842l-5.30305-3.04034,5.1256-3.80723a.49963.49963,0,1,0-.596-.80208l-5.73863,4.26265a.49951.49951,0,0,0,.04918.83476l5.96526,3.41968A.49965.49965,0,0,0,188.97111,613.44045Z"
                 transform="translate(-159.91993 -161.86389)"
-                fill="#4338ca"
+                fill="#38bdf8"
               />
               <path
                 d="M197.48564,616.32142a.482.482,0,0,0,.137-.05785.49976.49976,0,0,0,.16751-.68714l-8.15548-13.40836a.50026.50026,0,0,0-.85441.52058L196.9357,616.097A.50033.50033,0,0,0,197.48564,616.32142Z"
                 transform="translate(-159.91993 -161.86389)"
-                fill="#4338ca"
+                fill="#38bdf8"
               />
               <path
                 d="M945.069,708.90387c-.61.31-1.23.62-1.84.92-15.8,7.9-28.44,12.39-45.73,17.31-1.46-16.3-2.87-44.95-4.24-62.71-.36-4.61-.72-8.48-1.07-11.21a15.18215,15.18215,0,0,0-.88-4.25l.06,4.25.15,11.21.87,64.11a288.5879,288.5879,0,0,1-65.84,9.49c-1.16.03-2.3.05-3.4.07-.39.01-.77.02-1.15.02-1.25.01-2.49.02-3.74.02a289.2711,289.2711,0,0,1-69.54-8.43c.49-16.13.98-44.46,1.44995-65.28.1-4.07.19-7.86.29-11.21.19-7.16.39-12.32.58-14.05a4.36163,4.36163,0,0,0-.39.97,97.15388,97.15388,0,0,0-1.89,13.08c-.35,3.35-.7,7.14-1.05,11.21-1.86,21.63-3.8,51.04-5.8,63.51a285.47262,285.47262,0,0,1-34.97-12.03q-9-3.75-17.68-8.09c1.1-7.2,2.25-15.27,3.43-23.64.92-6.49,1.87-13.16,2.84-19.75,1.5-10.18,52.46-120.11,64.47-123.96l.3-.08.21.09,20.45-6.28,2.99-.92,2.01-.62,7.08-5.39,3.85-2.93,3.61-2.75,7.06-5.37,43.71,2.69,8.51,20.49,19.06,6.97.33-.15.29-.12.3.08a55.306,55.306,0,0,1,29.28,22.21c.94,1.41,2.08,3.27,3.37,5.52,1.1,1.91,2.3,4.09,3.6,6.5,1.85,3.43005,3.87,7.30005,6.01,11.49.47.92.95,1.86,1.43,2.81q1.335,2.63993,2.71,5.38995c2.13,4.25,4.33,8.69,6.53,13.2,1.91,3.91,3.84,11.95,5.74,22.18,1.57,8.5,3.13,18.52,4.64,28.95,1.98,13.52-.13,29.71,1.66,42.15C944.83905,707.36389,944.95905,708.13391,945.069,708.90387Z"
@@ -1045,16 +985,21 @@ function Home() {
             <p className="text-gray-500 sm:text-xl dark:text-gray-400">
               {/* Here at Grobbiz we focus on markets where technology, innovation,
               and capital can unlock long-term value and drive economic growth. */}
-              We work closely with our clients to understand their unique business needs and goals, and tailor our services to meet those needs. Our team of experienced professionals is committed to delivering high-quality work and providing exceptional customer service.
-
-              Partner with GROBBIZ to take your business to the next level and succeed in the digital world. Contact us today to learn more about our services and how we can help you achieve your business goals.
+              We work closely with our clients to understand their unique
+              business needs and goals, and tailor our services to meet those
+              needs. Our team of experienced professionals is committed to
+              delivering high-quality work and providing exceptional customer
+              service. Partner with GROBBIZ to take your business to the next
+              level and succeed in the digital world. Contact us today to learn
+              more about our services and how we can help you achieve
+              your business goals.
             </p>
           </div>
           <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-indigo-100 lg:h-12 lg:w-12 dark:bg-indigo-900">
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-sky-100 lg:h-12 lg:w-12 dark:bg-indigo-900">
                 <svg
-                  className="w-5 h-5 text-indigo-600 lg:w-6 lg:h-6 dark:text-indigo-300"
+                  className="w-5 h-5 text-sky-600 lg:w-6 lg:h-6 dark:text-indigo-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1070,16 +1015,20 @@ function Home() {
                 Website design and development
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                A well-designed website can help you form a good impression on your prospective customers. It can also help you nurture your leads and get more conversions. But, more importantly, it provides good user experience and helps your website visitors access and navigate your website with ease
+                A well-designed website can help you form a good impression on
+                your prospective customers. It can also help you nurture your
+                leads and get more conversions. But, more importantly, it
+                provides good user experience and helps your website visitors
+                access and navigate your website with ease
                 {/* Plan it, create it, launch it. Collaborate seamlessly with all
                 the organization and hit your marketing goals every month with
                 our marketing plan. */}
               </p>
             </div>
             <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-indigo-100 lg:h-12 lg:w-12 dark:bg-indigo-900">
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-sky-100 lg:h-12 lg:w-12 dark:bg-sky-900">
                 <svg
-                  className="w-5 h-5 text-indigo-600 lg:w-6 lg:h-6 dark:text-indigo-300"
+                  className="w-5 h-5 text-sky-600 lg:w-6 lg:h-6 dark:text-sky-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1089,9 +1038,8 @@ function Home() {
               </div>
               <h3 className="mb-2 text-xl font-bold dark:text-white">SEO</h3>
               <p className="text-gray-500 dark:text-gray-400">
-                Making your content search-friendly matters because it's how you get more relevant users viewing your content
-                {/* Protect your organization, devices and stay compliant with our
-                structured workflows and custom permissions made for you. */}
+                Making your content search-friendly matters because it's how you
+                get more relevant users viewing your content
               </p>
             </div>
             <div>
@@ -1252,14 +1200,14 @@ function Home() {
                 strokeLinejoin="round"
               />
             </svg> */}
-             <div className=" hidden lg:block flex-1">
-              <img
-                alt="grobbiz-logo"
-                // className=" max-h-full w-full rounded-lg object-cover "
-                src={logo}
-              />
+            <div
+              className="hidden lg:block flex-1"
+              onClick={() => {
+                window.location.href = "/#";
+              }}
+            >
+              <img alt="grobbiz-logo" className=" w-36 p-4" src={logo} />
             </div>
-            <span className="text-xl">Grobbiz</span>
           </a>
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2020 Grobbiz —
