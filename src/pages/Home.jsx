@@ -15,7 +15,7 @@ function Home() {
                   className="text-2xl font-bold leading-none flex items-center"
                   href="/"
                 >
-                  <div className=" hidden lg:block flex-1">
+                  <div className=" lg:block flex-1">
                     <img alt="grobbiz-logo" className=" w-36 p-4" src={logo} />
                   </div>
                 </a>
@@ -1201,7 +1201,7 @@ function Home() {
               />
             </svg> */}
             <div
-              className="hidden lg:block flex-1"
+              className=" lg:block flex-1"
               onClick={() => {
                 window.location.href = "/#";
               }}
