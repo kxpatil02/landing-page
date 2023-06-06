@@ -171,15 +171,31 @@ function Contact() {
                   {/* <p className="w-full text-base  text-gray-600">
                     Mon-Sat 9am href 5pm.
                   </p> */}
-                  <a
-                    href="https://wa.me/9975123962"
+//                   <a
+//                     href="https://wa.me/9975123962"
+//                     className="w-full text-base  text-gray-600"
+//                   >
+//                     {/* <img 
+//                     src={whatsappSvg}
+//                     /> */}
+//                     +91 9975123962
+//                   </a>
+                      
+
+                    <a
+                    href="https://wa.me/9834388054?text=Hello%20I%20like%20to%20contact%20your%20agency"
                     className="w-full text-base  text-gray-600"
+                    class="whatsapp_float"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    
                   >
-                    {/* <img 
-                    src={whatsappSvg}
-                    /> */}
+                    <i class="fa fa-whatsapp ">
                     +91 9975123962
-                  </a>
+                    </i>                  
+                    
+                  </a> 
+                      
                   <a
                     href="mailto: grobbiz.services@gmail.com"
                     className="w-full text-base  text-gray-600"
