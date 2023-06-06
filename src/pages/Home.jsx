@@ -2,6 +2,7 @@ import React from "react";
 import Contact from "../components/Contact";
 import logo from "../assets/logo.svg";
 
+
 function Home() {
   return (
     <div className="">
@@ -46,7 +47,7 @@ function Home() {
               {/* GROBBIZ - Your Digital Business Partner */}
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              Here in GROBBIZ, we specializes in helping business owners create
+              Here at GROBBIZ, we specializes in helping business owners create
               and optimize their digital presence. We understand the importance
               of having a strong online presence in today's digital world, and
               our team of experts is dedicated to helping you achieve your
@@ -1016,7 +1017,8 @@ function Home() {
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
                 A well-designed website can help you form a good impression on
-                your prospective customers. It can also help you nurture your
+                your prospective customers.
+               It can also help you nurture your
                 leads and get more conversions. But, more importantly, it
                 provides good user experience and helps your website visitors
                 access and navigate your website with ease
@@ -1039,18 +1041,19 @@ function Home() {
               <h3 className="mb-2 text-xl font-bold dark:text-white">SEO</h3>
               <p className="text-gray-500 dark:text-gray-400">
                 Making your content search-friendly matters because it's how you
-                get more relevant users viewing your content
+                get more relevant users viewing your content, to optimize a website's technical configuration, content relevance and link popularity so its pages can become easily findable, more relevant and popular towards user search queries.
               </p>
             </div>
             <div>
-              {/* <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-indigo-100 lg:h-12 lg:w-12 dark:bg-indigo-900">
+            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-sky-100 lg:h-12 lg:w-12 dark:bg-sky-900">
                 <svg
-                  className="w-5 h-5 text-indigo-600 lg:w-6 lg:h-6 dark:text-indigo-300"
+                  className="w-5 h-5 text-sky-600 lg:w-6 lg:h-6 dark:text-sky-300"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
+                  
                     fillRule="evenodd"
                     d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
                     clipRule="evenodd"
@@ -1059,14 +1062,13 @@ function Home() {
                 </svg>
               </div>
               <h3 className="mb-2 text-xl font-bold dark:text-white">
-                Business Automation
+                Google My Bussiness
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                Auto-assign tasks, send Slack messages, and much more. Now power
-                up with hundreds of new templates href help you get started.
-              </p>
+                Google Business Profile is an easy-to-use tool for businesses and organizations to manage their online presence across Google. To help customers find your business, you can verify your business and edit your business information, you can optimize your website's visibility and reach a wider audience, ultimately boosting your online reputation and driving more traffic to your website.
+                </p>
             </div>
-            <div>
+            {/* <div>
               <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-indigo-100 lg:h-12 lg:w-12 dark:bg-indigo-900">
                 <svg
                   className="w-5 h-5 text-indigo-600 lg:w-6 lg:h-6 dark:text-indigo-300"
@@ -1131,9 +1133,9 @@ function Home() {
                 Keep your company’s lights on with customizable, iterative, and
                 structured workflows built for all efficient teams and
                 individual.
-              </p> */}
-            </div>
-          </div>
+              </p> 
+            </div>*/}
+          </div> 
         </div>
       </section>
       {/* Contact us */}
